@@ -11,6 +11,17 @@
 		9EAB4E9E2854327100698776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4E9D2854327100698776 /* ContentView.swift */; };
 		9EAB4EA02854327200698776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAB4E9F2854327200698776 /* Assets.xcassets */; };
 		9EAB4EA32854327200698776 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAB4EA22854327200698776 /* Preview Assets.xcassets */; };
+		9EAB4EAA2855194900698776 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EA92855194900698776 /* MainUIView.swift */; };
+		9EAB4EAC28551AB300698776 /* SecondUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EAB28551AB300698776 /* SecondUIView.swift */; };
+		9EAB4EAE28551B4700698776 /* SecondStackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EAD28551B4700698776 /* SecondStackScreen.swift */; };
+		9EAB4EB028551B7000698776 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EAF28551B7000698776 /* Router.swift */; };
+		9EAB4EB22855754600698776 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EB12855754600698776 /* ImagesView.swift */; };
+		9EAB4EB42855777100698776 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EB32855777100698776 /* ButtonView.swift */; };
+		9EAB4EB628557D2B00698776 /* DividersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EB528557D2B00698776 /* DividersView.swift */; };
+		9EAB4EB828557DF400698776 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EB728557DF400698776 /* StackView.swift */; };
+		9EAB4EBA28557F8600698776 /* RetoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EB928557F8600698776 /* RetoScreen.swift */; };
+		9EAB4EBC2855847800698776 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB4EBB2855847800698776 /* ZStackView.swift */; };
+		9EF56AF12855B0A3004FA601 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF56AF02855B0A3004FA601 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		9EAB4E9D2854327100698776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9EAB4E9F2854327200698776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EAB4EA22854327200698776 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EAB4EA92855194900698776 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
+		9EAB4EAB28551AB300698776 /* SecondUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondUIView.swift; sourceTree = "<group>"; };
+		9EAB4EAD28551B4700698776 /* SecondStackScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStackScreen.swift; sourceTree = "<group>"; };
+		9EAB4EAF28551B7000698776 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9EAB4EB12855754600698776 /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
+		9EAB4EB32855777100698776 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		9EAB4EB528557D2B00698776 /* DividersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividersView.swift; sourceTree = "<group>"; };
+		9EAB4EB728557DF400698776 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		9EAB4EB928557F8600698776 /* RetoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoScreen.swift; sourceTree = "<group>"; };
+		9EAB4EBB2855847800698776 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		9EF56AF02855B0A3004FA601 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +73,22 @@
 		9EAB4E9A2854327100698776 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9EF56AEF2855B05F004FA601 /* Service */,
+				9EF56AEE2855B058004FA601 /* Components */,
+				9EAB4EA92855194900698776 /* MainUIView.swift */,
 				9EAB4E9B2854327100698776 /* SwiftUIDemoApp.swift */,
 				9EAB4E9D2854327100698776 /* ContentView.swift */,
 				9EAB4E9F2854327200698776 /* Assets.xcassets */,
 				9EAB4EA12854327200698776 /* Preview Content */,
+				9EAB4EAB28551AB300698776 /* SecondUIView.swift */,
+				9EAB4EAD28551B4700698776 /* SecondStackScreen.swift */,
+				9EAB4EAF28551B7000698776 /* Router.swift */,
+				9EAB4EB12855754600698776 /* ImagesView.swift */,
+				9EAB4EB32855777100698776 /* ButtonView.swift */,
+				9EAB4EB528557D2B00698776 /* DividersView.swift */,
+				9EAB4EB728557DF400698776 /* StackView.swift */,
+				9EAB4EB928557F8600698776 /* RetoScreen.swift */,
+				9EAB4EBB2855847800698776 /* ZStackView.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -65,6 +99,21 @@
 				9EAB4EA22854327200698776 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EF56AEE2855B058004FA601 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9EF56AEF2855B05F004FA601 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9EF56AF02855B0A3004FA601 /* APIService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +187,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EAB4E9E2854327100698776 /* ContentView.swift in Sources */,
+				9EAB4EBA28557F8600698776 /* RetoScreen.swift in Sources */,
+				9EAB4EBC2855847800698776 /* ZStackView.swift in Sources */,
 				9EAB4E9C2854327100698776 /* SwiftUIDemoApp.swift in Sources */,
+				9EAB4EB42855777100698776 /* ButtonView.swift in Sources */,
+				9EAB4EB628557D2B00698776 /* DividersView.swift in Sources */,
+				9EAB4EAE28551B4700698776 /* SecondStackScreen.swift in Sources */,
+				9EAB4EB22855754600698776 /* ImagesView.swift in Sources */,
+				9EAB4EAC28551AB300698776 /* SecondUIView.swift in Sources */,
+				9EF56AF12855B0A3004FA601 /* APIService.swift in Sources */,
+				9EAB4EB028551B7000698776 /* Router.swift in Sources */,
+				9EAB4EAA2855194900698776 /* MainUIView.swift in Sources */,
+				9EAB4EB828557DF400698776 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

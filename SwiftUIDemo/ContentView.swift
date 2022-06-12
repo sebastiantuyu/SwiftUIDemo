@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State
+    var response: Bool?
+    
+    
+    @State
+    var answer: String = ""
+    
+    let apiService = APIService()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Button(action: {
+                response = apiService.fetchAPIData()
+                
+                if response == true {
+                    self.answer = "true"
+                }
+            }, label: {
+                Text("Click me! \(answer)")
+            })
+        }
+        
     }
 }
 
